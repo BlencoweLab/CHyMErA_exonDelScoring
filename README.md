@@ -13,6 +13,7 @@ Using read counts per guide pair as well as dropout scores from https://github.c
 - *Knockout.exons.human.csv.gz*: Exon annotation from screen design phase
 
 **Additional information about gene expression and splicing in cell type**
+
 This was obtained using [vast-tools](https://github.com/vastgroup/vast-tools) on RNA-Seq data from RPE1 cells, [GEO: GSE75189](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE75189)
 - *cRPKM_AND_COUNTS-Hsa1.tab.gz* Gene expression in RPE1
 - *INCLUSION_LEVELS_FULL-Hsa1-hg19.tab.gz* Alternative splicing percent-spliced-in in RPE1
