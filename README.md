@@ -8,8 +8,10 @@ Using read counts per guide pair as well as dropout scores from https://github.c
 - *exon_deletion_norm_counts.txt.gz*: Raw read counts and log2-fold changes per guide pair
 - *intronic_intronic_guides.tsv.gz*: Mean log2-fold change and empirical FDR per intronic-intronic guide pair. See [here](https://github.com/HenryWard/chymera-scoring/blob/master/input/exon_deletion_norm_counts.txt) for derivation.
 - *other_guides.tsv.gz*: Same as above, for other types of guide pairs
+
 **Exon annotation**
 - *Knockout.exons.human.csv.gz*: Exon annotation from screen design phase
+
 **Additional information about gene expression and splicing in cell type**
 This was obtained using [vast-tools](https://github.com/vastgroup/vast-tools) on RNA-Seq data from RPE1 cells, [GEO: GSE75189](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE75189)
 - *cRPKM_AND_COUNTS-Hsa1.tab.gz* Gene expression in RPE1
